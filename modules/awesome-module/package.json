@@ -1,0 +1,35 @@
+{
+  "name": "react-native-awesome-module",
+  "version": "0.0.0",
+  "description": "Empty",
+  "main": "src/index",
+  "files": [
+    "src",
+    "android",
+    "ios",
+    "cxx",
+    "react-native-awesome-module.podspec",
+    "!android/build",
+    "!ios/build",
+    "!**/__tests__",
+    "!**/__fixtures__",
+    "!**/__mocks__"
+  ],
+  "codegenConfig": {
+    "name": "RNAwesomeModuleViewSpec",
+    "type": "components",
+    "jsSrcsDir": "src",
+    "outputDir": {
+      "ios": "ios/generated",
+      "android": "android/generated"
+    },
+    "includesGeneratedCode": false
+  },
+  "author": " <> ()",
+  "license": "UNLICENSED",
+  "homepage": "#readme",
+  "create-react-native-library": {
+    "type": "view-new",
+    "version": "0.40.0"
+  }
+}
